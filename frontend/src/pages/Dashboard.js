@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import API from '../api/axios';
 import { BookOpen, CheckCircle, TrendingUp, Award, ArrowRight } from 'lucide-react';
 
-const CATEGORY_COLORS = { programming:'#6366f1', design:'#ec4899', data_science:'#14b8a6', business:'#f59e0b', mathematics:'#10b981' };
+
 const CATEGORY_EMOJI = { programming:'💻', design:'🎨', data_science:'📊', business:'💼', mathematics:'🧮' };
 
 export default function Dashboard() {
