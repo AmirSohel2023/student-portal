@@ -27,7 +27,7 @@ This  full-stack Student Portal built with **Django REST Framework** (backend) a
 
 ## 📁 Project Structure
 
-student-portal/
+└──student-portal/
 ├── backend/                        # Django Backend
 │   ├── api/                        # Main Django app
 │   │   ├── models.py               # Course, Enrollment, Certificate models
@@ -44,26 +44,23 @@ student-portal/
 │   │   └── wsgi.py                 # WSGI config
 │   ├── requirements.txt            # Python dependencies
 │   └── manage.py                   # Django CLI
-│
-└── frontend/                       # React Frontend
-└── src/
-├── api/
-│   └── axios.js            # Axios config & interceptors
-├── context/
-│   └── AuthContext.js      # Global auth state
-├── components/
-│   └── Layout.js           # Sidebar & main layout
-├── pages/
-│   ├── Login.js            # Login page
-│   ├── Register.js         # Registration page
-│   ├── Dashboard.js        # Stats dashboard
-│   ├── Courses.js          # Browse & enroll courses
-│   ├── MyCourses.js        # Track progress
-│   └── Certificates.js     # View certificates
-├── App.js                  # Routes & providers
-└── App.css                 # Global dark theme styles
-
-
+│ frontend/                       # React Frontend
+    └── src/
+        ├── api/
+        │   └── axios.js            # Axios config & interceptors
+        ├── context/
+        │   └── AuthContext.js      # Global auth state
+        ├── components/
+        │   └── Layout.js           # Sidebar & main layout
+        ├── pages/
+        │   ├── Login.js            # Login page
+        │   ├── Register.js         # Registration page
+        │   ├── Dashboard.js        # Stats dashboard
+        │   ├── Courses.js          # Browse & enroll courses
+        │   ├── MyCourses.js        # Track progress
+        │   └── Certificates.js     # View certificates
+        ├── App.js                  # Routes & providers
+        └── App.css                 # Global dark theme styles
 
 
 
