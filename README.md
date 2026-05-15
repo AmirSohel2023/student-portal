@@ -28,39 +28,39 @@ This  full-stack Student Portal built with **Django REST Framework** (backend) a
 ## 📁 Project Structure
 
 └──student-portal/
-├── backend/                        # Django Backend
-│   ├── api/                        # Main Django app
-│   │   ├── models.py               # Course, Enrollment, Certificate models
-│   │   ├── views.py                # API views & logic
-│   │   ├── serializers.py          # DRF serializers
-│   │   ├── urls.py                 # API URL routes
-│   │   ├── admin.py                # Admin panel config
+├── backend/                        
+│   ├── api/                       
+│   │   ├── models.py               
+│   │   ├── views.py                
+│   │   ├── serializers.py         
+│   │   ├── urls.py                 
+│   │   ├── admin.py                
 │   │   └── management/
 │   │       └── commands/
-│   │           └── seed_data.py    # Sample courses seeder
+│   │           └── seed_data.py    
 │   ├── backend/
-│   │   ├── settings.py             # Django settings
-│   │   ├── urls.py                 # Root URL config
-│   │   └── wsgi.py                 # WSGI config
-│   ├── requirements.txt            # Python dependencies
-│   └── manage.py                   # Django CLI
-│ frontend/                       # React Frontend
+│   │   ├── settings.py             
+│   │   ├── urls.py                 
+│   │   └── wsgi.py                
+│   ├── requirements.txt           
+│   └── manage.py                   
+│ frontend/                       
     └── src/
         ├── api/
-        │   └── axios.js            # Axios config & interceptors
+        │   └── axios.js            
         ├── context/
-        │   └── AuthContext.js      # Global auth state
+        │   └── AuthContext.js      
         ├── components/
-        │   └── Layout.js           # Sidebar & main layout
+        │   └── Layout.js           
         ├── pages/
-        │   ├── Login.js            # Login page
-        │   ├── Register.js         # Registration page
-        │   ├── Dashboard.js        # Stats dashboard
-        │   ├── Courses.js          # Browse & enroll courses
-        │   ├── MyCourses.js        # Track progress
-        │   └── Certificates.js     # View certificates
-        ├── App.js                  # Routes & providers
-        └── App.css                 # Global dark theme styles
+        │   ├── Login.js            
+        │   ├── Register.js         
+        │   ├── Dashboard.js        
+        │   ├── Courses.js          
+        │   ├── MyCourses.js        
+        │   └── Certificates.js     
+        ├── App.js                  
+        └── App.css                 
 
 
 
